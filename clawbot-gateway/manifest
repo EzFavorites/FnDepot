@@ -9,7 +9,7 @@
 appname               = clawbot-gateway
 
 # 应用版本号
-version = 0.0.7
+version = 0.1.0
 
 # 应用中心显示名称
 display_name          = ClawBot Gateway
