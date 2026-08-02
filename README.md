@@ -16,7 +16,7 @@
 
 ```bash
 # 构建 ClawBot Gateway
-git tag clawbot-gateway-v0.0.7 && git push origin clawbot-gateway-v0.0.7
+git tag clawbot-gateway-v0.1.0 && git push origin clawbot-gateway-v0.1.0
 ```
 
 也可通过 Workflow Dispatch 手动触发构建。
