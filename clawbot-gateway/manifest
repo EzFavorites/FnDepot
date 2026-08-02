@@ -24,11 +24,11 @@ platform = x86
 source                = thirdparty
 
 # 维护者信息
-maintainer            = Crafter-feng
+maintainer            = EzFavorites
 maintainer_url        = https://github.com/EzFavorites/FnDepot/tree/main/clawbot-gateway
 
 # 分发者信息
-distributor           = Crafter-feng
+distributor           = EzFavorites
 distributor_url       = https://github.com/EzFavorites/FnDepot/tree/main/clawbot-gateway
 
 # 最低支持的飞牛系统版本

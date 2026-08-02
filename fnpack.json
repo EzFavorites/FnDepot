@@ -7,7 +7,7 @@
     ],
     "version": "0.0.7",
     "desc": "微信 iLink 消息网关，支持多后端适配、智能路由和虚拟 Bot 代理",
-    "distributor": "Crafter-feng",
+    "distributor": "EzFavorites",
     "distributor_url": "https://github.com/EzFavorites/FnDepot/tree/main/clawbot-gateway",
     "bug_report_url": "https://github.com/EzFavorites/FnDepot/issues",
     "labels": "工具,微信,消息,网关",

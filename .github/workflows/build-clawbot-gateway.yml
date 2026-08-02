@@ -77,7 +77,7 @@ jobs:
       # ========== 克隆 clawbot-gateway 源码 ==========
       - name: 克隆源码仓库
         run: |
-          git clone --depth=1 -b main https://github.com/Crafter-feng/clawbot-gateway.git /tmp/clawbot-src
+          git clone --depth=1 -b main https://github.com/EzFavorites/clawbot-gateway.git /tmp/clawbot-src
           echo "源码克隆完成"
 
       # ========== 构建前端 ==========
