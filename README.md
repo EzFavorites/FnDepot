@@ -4,7 +4,7 @@
 
 | 应用 | 最新版本 | 编译时间 |
 |:-----|:-------:|:-------:|
-| [ClawBot Gateway](clawbot-gateway/) — 微信 iLink 消息网关，支持多后端适配、智能路由和虚拟 Bot 代理 | [![clawbot-gateway](https://img.shields.io/github/v/release/EzFavorites/FnDepot?filter=clawbot-gateway-v*&label=&color=blue)](https://github.com/EzFavorites/FnDepot/releases) | 2026-08-02 21:02 |
+| [ClawBot Gateway](clawbot-gateway/) — 微信 iLink 消息网关，支持多后端适配、智能路由和虚拟 Bot 代理 | [![clawbot-gateway](https://img.shields.io/github/v/release/EzFavorites/FnDepot?filter=clawbot-gateway-v*&label=&color=blue)](https://github.com/EzFavorites/FnDepot/releases) | 2026-08-16 19:28 |
 
 ## 应用列表
 
