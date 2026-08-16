@@ -5,7 +5,7 @@
       "x86",
       "arm"
     ],
-    "version": "0.1.0",
+    "version": "0.1.1",
     "desc": "微信 iLink 消息网关，支持多后端适配、智能路由和虚拟 Bot 代理",
     "distributor": "EzFavorites",
     "distributor_url": "https://github.com/EzFavorites/FnDepot/tree/main/clawbot-gateway",
@@ -17,10 +17,10 @@
     "changelog": "首次上线：微信 iLink 消息网关，支持多后端适配、智能路由和虚拟 Bot 代理",
     "arch_diff": {
       "x86": {
-        "download_url": "https://github.com/EzFavorites/FnDepot/releases/download/clawbot-gateway-v0.1.0/clawbot-gateway-X86.fpk"
+        "download_url": "https://github.com/EzFavorites/FnDepot/releases/download/clawbot-gateway-v0.1.1/clawbot-gateway-X86.fpk"
       },
       "arm": {
-        "download_url": "https://github.com/EzFavorites/FnDepot/releases/download/clawbot-gateway-v0.1.0/clawbot-gateway-ARM.fpk"
+        "download_url": "https://github.com/EzFavorites/FnDepot/releases/download/clawbot-gateway-v0.1.1/clawbot-gateway-ARM.fpk"
       }
     }
   }
