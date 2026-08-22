@@ -1,15 +1,21 @@
 #!/bin/bash
 # ============================================================
 # ClawBot Gateway for fnOS - 卸载后清理 (uninstall_callback)
-# ============================================================
 # 执行时机：卸载完成后
-# 用途：清理数据目录
 # ============================================================
-
-# 询问用户是否保留数据
-# 如果 TRIM_REMOVE_DATA 为 true 则删除数据目录
-if [ "${TRIM_REMOVE_DATA}" = "true" ]; then
-    rm -rf "${TRIM_PKGVAR}" 2>/dev/null || true
-fi
+# 用途：卸载收尾（非破坏性）
+#
+# 修复说明：
+# 1. 已删除 wizard/uninstall（交互式勾选框），卸载改为静默，
+#    以便 fnOS 的更新 / 动态更新能无交互走通。
+# 2. 原脚本判断 TRIM_REMOVE_DATA，但向导字段 wizard_remove_data
+#    按 fnOS 文档会变成同名环境变量（不带 TRIM_ 前缀），二者不匹配，
+#    该删除分支原本就永远不执行。现统一移除，卸载不再删除用户数据。
+#
+# 数据保留原则：
+#   - 运行数据在 TRIM_PKGVAR (@appdata)，配置在 TRIM_PKGETC (@appconf)，
+#     升级时天然保留，不应在卸载阶段清理。
+#   - 若需「彻底清空」，请在 wizard/config 设置页提供明确的重置操作，
+#     由 config_callback 执行，避免阻塞更新。
 
 exit 0
